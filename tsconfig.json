@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "esnext",
+        "target": "es6",
+        "lib": ["es6", "dom", "esnext"],
+        "sourceMap": true,
+        "allowJs": true,
+        "strict": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "baseUrl": "./",
+        "rootDir": "./",
+        "typeRoots": ["./node_modules/@types", "./src/@types"],
+        "paths": {
+            "@src/*": ["src/*"],
+            "@images/*": ["src/images/*"],
+            "@styles/*": ["src/styles/*"],
+            "@components/*": ["src/components/*"]
+        },
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "importsNotUsedAsValues": "preserve",
+        "incremental": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true
+    },
+    "include": ["src"],
+    "exclude": ["**/node_modules", "**/.*/"]
+}
