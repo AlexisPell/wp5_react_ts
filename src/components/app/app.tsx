@@ -1,7 +1,6 @@
 import React, {Suspense, lazy} from 'react';
 
-import {stylesContainer} from './app.module.less';
-import {stylesHeader, stylesImage} from './app.module.scss';
+import {stylesContainer, stylesHeader, stylesImage} from './app.module.scss';
 
 const LazyStrawberryIcon = lazy(() => import('./strawberry'));
 
