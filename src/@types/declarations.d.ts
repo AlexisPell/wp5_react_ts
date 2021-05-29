@@ -14,6 +14,11 @@ declare module "*.svg" {
   export default ReactComponent;
 }
 
+declare module '*.png' {
+  const png: string | undefined;
+  export = png
+}
+
 declare const IS_PROD: boolean;
 declare const IS_DEV: boolean;
 declare const IS_DEV_SERVER: boolean;
